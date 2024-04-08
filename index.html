@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>API with Pokemon</title>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src=""
+        alt="Pokemon Sprite"
+        id="pokemonSprite"
+        style="display: none"
+      />
+      <div class="types">
+        <span id="pokemonType"></span>
+      </div>
+      <input type="text" id="pokemonName" placeholder="Pokemon name" /><br />
+      <button type="submit" onclick="fetchData()">Fetch Pokemon</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
