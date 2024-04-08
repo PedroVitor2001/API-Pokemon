@@ -1,0 +1,81 @@
+body {
+  font-family: JetBrains Mono;
+  background-color: rgb(255, 245, 238);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid hsl(207, 58%, 64%);
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: hsl(207, 58%, 64%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: hsl(207, 58%, 74%);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  border-radius: 50%;
+  border: 3px solid hsl(207, 58%, 64%);
+  background-color: white;
+}
+
+.types {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 40px 0;
+}
+
+.types p {
+  font-family: JetBrains Mono;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.card {
+  height: 462px;
+  width: 366px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid hsl(207, 58%, 64%);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 30px rgb(110, 108, 108);
+  background: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(207, 58%, 64%));
+}
+
+.type-item {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: hsl(207, 58%, 64%);
+  border: 1px solid #ddd;
+  color: white;
+  border-radius: 5px;
+}
