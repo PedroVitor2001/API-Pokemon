@@ -57,3 +57,7 @@ async function fetchData() {
     console.error(error);
   }
 }
+
+const fetchButton = document.getElementById("fetchButton");
+
+fetchButton.addEventListener("click", fetchData);
